@@ -32,15 +32,17 @@ def initial_round
   # code #initial_round here
   total = deal_card + deal_card
   display_card_total(total)
-  
+  total
 end
 
-def hit?
+def hit?(currentTotal)
   # code hit? here
+  currentTotal += deal_card
 end
 
 def invalid_command
   # code invalid_command here
+  
 end
 
 #####################################################
