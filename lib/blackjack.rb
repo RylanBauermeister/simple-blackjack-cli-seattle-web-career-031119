@@ -39,7 +39,11 @@ end
 
 def hit?(currentTotal)
   # code hit? here
-  currentTotal += deal_card
+  prompt_user
+  action = get_user_input
+  if(action == "h")
+    currentTotal += deal_card
+  end
 end
 
 def invalid_command
