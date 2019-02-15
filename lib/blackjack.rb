@@ -25,7 +25,9 @@ end
 
 def end_game(value)
   # code #end_game here
-    if value > 21 puts "Sorry, you hit #{value}. Thanks for playing!" end
+    if value > 21 
+      puts "Sorry, you hit #{value}. Thanks for playing!" 
+    end
 end
 
 def initial_round
