@@ -23,8 +23,9 @@ def get_user_input
   gets.chomp
 end
 
-def end_game
+def end_game(value)
   # code #end_game here
+  value > 21 ? puts ""
 end
 
 def initial_round
