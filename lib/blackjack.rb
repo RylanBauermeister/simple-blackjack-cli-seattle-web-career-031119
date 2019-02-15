@@ -44,6 +44,8 @@ def hit?(currentTotal)
   if(action == "h")
     currentTotal += deal_card
   end
+  
+  currentTotal
 end
 
 def invalid_command
