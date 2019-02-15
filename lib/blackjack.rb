@@ -62,7 +62,8 @@ def runner
   
   welcome
   total = initial_round
-  while total != hit?(total)
+  loop do
+    total = hit?(total)
     if total > 21
       break
     end
