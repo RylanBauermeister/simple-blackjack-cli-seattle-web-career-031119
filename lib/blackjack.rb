@@ -62,11 +62,9 @@ def runner
   
   welcome
   total = initial_round
-  loop do
+  until total > 21
+    display_card_total
     total = hit?(total)
-    if total > 21
-      break
-    end
   end
   end_game
 end
